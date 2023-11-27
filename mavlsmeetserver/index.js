@@ -12,8 +12,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'mahirjain2006@gmail.com',
-    pass: 'mahir2006'
+    user: '*******',
+    pass: '*******'
   }
 });
 var ars=[];
@@ -24,8 +24,8 @@ cors:[{
 ]
 });
 var instance = new Razorpay({
-  key_id: 'rzp_test_NtDXQdlGUoG1b4',
-  key_secret: 'zbI0PAJa4MMSsoSbLYBkjItE',
+  key_id: '*******',
+  key_secret: '*******',
 });
 app.get('/', function(req, res) {
    res.send("");
@@ -35,7 +35,7 @@ app.get('/mailconfirmation',function(req,res){
   var idkey=req.query.transactionkey;
   var orderamnt=req.query.amt;
 var mailOptions = {
-  from: 'mahirjain2006@gmail.com',
+  from: '**********',
   to: mailid,
   subject: 'Mavls Meet Subscription',
   text: 'You have successfully subscribed to our plan with transaction id '+idkey+'.Regards,Mavls Meet.'
@@ -50,7 +50,7 @@ transporter.sendMail(mailOptions, function(error, info){
 });
 });
 app.get("/verifysignature",function(req,res){
-  const hmac = crypto.createHmac('sha256',"zbI0PAJa4MMSsoSbLYBkjItE");
+  const hmac = crypto.createHmac('sha256',"*********");
   hmac.update(req.query.orderid + "|" + req.query.paymentid);
   let generatedSignature = hmac.digest('hex');
   let isSignatureValid = generatedSignature ==req.query.signature;
