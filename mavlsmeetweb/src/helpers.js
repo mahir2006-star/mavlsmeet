@@ -6,10 +6,10 @@ export default {
         return crypto.getRandomValues(array);
     },
 url(){
-  return 'https://mature-antique-citrus.glitch.me/';
+  return '#YOUR SOCKET SERVER URL';
 },
 key(){
-  return 'rzp_test_rZdCXNBH8WxrFa';
+  return '#YOUR RAZORPAY KEY';
 },
 closeVideo( elemId ) {
         if ( document.getElementById( elemId ) ) {
