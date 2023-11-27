@@ -1,0 +1,442 @@
+.mavlsmeet{
+  background-color:#000000;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+.meetcontrols{
+    background-color:#ffffff;
+    height:10%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  top:90%;
+}
+.pinbtn{
+  background: transparent;
+}
+#actionright{
+  float:right;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+}
+#meetnamebottomleft{
+  float:left;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  height:100%;
+  width:10%;
+}
+#meetnamebottomlefttwo{
+  border-radius: 50%;
+  height:100%;
+}
+#meetnamebottomfloatleft{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:10%;
+  height:100%;
+}
+.header{
+  border-bottom-left-radius:25px;
+  position:absolute;
+  height:7%;
+  top:0;
+  right:0;
+  background-color:#ffffff;
+}
+.localvideo{
+float:right;
+height:100%;
+}
+.blurcanvas{
+  float:right;
+  height:100%;
+}
+
+#local.uservideoconatiner{
+  background:lightgrey;
+  width:100%;
+  height:90%;
+  position:absolute;
+  top:0;
+  bottom:10%;
+  left:0;
+    border-top-right-radius:25px;
+}
+.pinbtn img{
+  background-color: white;
+  position: absolute;
+  top:0;
+  left:0;
+  border-bottom-right-radius:50%;
+}
+.uservideoconatiner{
+  background:lightgrey;
+  width:20%;
+  height:20%;
+  position:absolute;
+  top:70%;
+  bottom:10%;
+  left:0;
+    border-top-right-radius:25px;
+}
+.uservideoconatiner video{
+  background:lightgrey;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  pointer-events: none;
+  object-fit: cover;
+}
+.blurcanvas{
+  background:lightgrey;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  pointer-events: none;
+    border-top-right-radius:25px;
+}
+.userimgblock{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;left:0;right:0;bottom:0;
+  background:lightgrey;
+  border-top-right-radius:25px;
+}
+.userimgblock img{
+  pointer-events: none;
+  background:lightgrey;
+  width:40%;
+  height:60%;
+  position:absolute;
+  top:20%;
+  bottom:20%;
+  left:30%;
+  right:30%;
+  border-radius:50%;
+}
+.participantslist{
+  background-color:#ffffff;
+  position:fixed;;
+  height:90%;
+  top:0;
+  bottom:10%;
+  right:0;
+min-width:25%;
+}
+.participantslist .lenddiv{
+  position: relative;
+  top:0;
+  height:10%;
+  overflow: hidden;
+}
+#parttile{
+  font-family:'Sofia';
+  font-size:2em;
+  position: absolute;
+  top:0;
+  bottom:90%;
+  margin-top:0px;
+  overflow: hidden;
+}
+.imgalt{
+  border-radius:50%;
+  height:30px;
+  width:30px;
+  pointer-events: none;
+}
+#meetpartlist{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  top:10%;
+  overflow-y:scroll;
+}
+.chatcontainer{
+  background-color:#ffffff;
+  position:fixed;;
+  height:90%;
+  top:0;
+  bottom:10%;
+  right:0;
+min-width:25%;
+}
+#messages{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  top:10%;
+  overflow-y:scroll;
+}
+#messages p{
+word-break: break-all;
+font-family: sans-serif;
+padding:10px;
+}
+#local{
+  height:90%;
+  width:100%;
+  position: absolute;
+  top:0;
+  bottom:10%;
+  right:0;
+  left:0;
+}
+#local video{
+  width:100%;height:100%;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;left:0;
+    object-fit: cover;
+}
+#local canvas{
+  width:100%;height:100%;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;left:0;
+}
+#local .userimgblock img{
+  background:lightgrey;
+  pointer-events: none;
+  width:30%;
+  height:60%;
+  position:absolute;
+  top:20%;
+  bottom:20%;
+  left:35%;
+  right:35%;
+  border-radius:50%;
+}
+.finset{
+  width:'100%';
+  height:'100%';
+}
+#local.userimgblock{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;left:0;
+}
+.pinneddiv{
+  width:100%;
+  height:90%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:10%;
+  background-color: black;
+}
+.pinneddiv video{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0%;
+  pointer-events: none;
+    object-fit: cover;
+}
+.pinneddiv canvas{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0%;
+  pointer-events: none;
+}
+.pinneddiv p{
+  color:black;background-color: white;
+  position: absolute;
+  bottom:0;
+  margin:0;
+  right:0;
+}
+.chatcontent{
+  width:100%;
+  height:10%;
+  position:absolute;
+  top:90%;
+  bottom:0;
+  right:0;left:0;
+  overflow-y: scroll;
+}
+.usernamep{
+  font-family: sans-serif;
+  position:absolute;
+  bottom:0;
+  float:left;
+  left:0;
+  color:white;
+  background: black;
+}
+p{
+  margin:0;padding:0;
+}
+.activeview{
+  width:100%;
+  height:90%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:10%;
+}
+.activeview video{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0%;
+  pointer-events: none;
+    object-fit: cover;
+}
+.activeview canvas{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0%;
+  pointer-events: none;
+}
+.activeview p{
+  color:black;background-color: white;
+  position: absolute;
+  bottom:0;
+  margin:0;
+  right:0;
+}
+.screen{
+  width:100%;
+  height:90%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:10%;
+  background-color:black;
+}
+.screen video{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0%;
+  pointer-events: none;
+    object-fit: cover;
+}
+.screen p{
+  color:black;background-color: white;
+  position: absolute;
+  bottom:0;
+  margin:0;
+  right:0;
+}
+.remoteuservideo{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;left:0;right:0;bottom:0;
+  border-top-right-radius:25px;
+}
+.remoteuservideo img{
+  pointer-events: none;
+  width:30%;
+  height:60%;
+  position:absolute;
+  top:20%;
+  bottom:20%;
+  left:35%;
+  right:35%;
+  border-radius:50%;
+}
+.gridview{
+  height:80%;
+  position: absolute;
+  top:10%;
+  bottom:10%;
+  left:0;right:0;
+  overflow-y: scroll;
+}
+.gridview div{
+  width:20%;
+  height:20%;
+  position:relative;
+top:0;
+float:left;
+  border-radius:0px;
+  background-color: lightgrey;
+}
+.gridview video{
+  width:100%;
+  height:100%;
+  pointer-events: none;
+    object-fit: cover;
+}
+.gridview .pinbtn{
+  position: absolute;
+  top:0;
+  left:0;
+}
+.gridview .userimgblock{
+  width:100%;
+  height:100%;
+  pointer-events: none;
+}
+.gridview .remoteuservideo{
+  width:100%;
+  height:100%;
+  pointer-events: none;
+  position: absolute;
+top:0;
+  right:0;
+    object-fit: cover;
+}
+.gridview canvas{
+  width:100%;
+  height:100%;
+  pointer-events: none;
+  position: absolute;
+top:0;
+  right:0;
+}
+.gridview div p{
+  color:black;background-color: white;
+  position: absolute;
+  bottom:0;
+  margin:0;
+  right:0;
+}
+.gridview div .pinbtn{
+  background: transparent;
+}

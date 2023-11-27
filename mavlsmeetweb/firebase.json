@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "rewrites": [ {
+          "source": "**",
+          "destination": "/index.html"
+        } ],
+    "public": "tuna",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
