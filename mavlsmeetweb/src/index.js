@@ -9,13 +9,13 @@ import "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
 var firebaseConfig = {
-  apiKey: "AIzaSyBivT-PWoH_BpzIaCOsXQklZHtxxZRXoG0",
-  authDomain: "mavlsmeet.firebaseapp.com",
-  projectId: "mavlsmeet",
-  storageBucket: "mavlsmeet.appspot.com",
-  messagingSenderId: "462029514202",
-  appId: "1:462029514202:web:e29d91cdeae09c1dc2cce3",
-  measurementId: "G-JQ4WRC9DD8"
+  // apiKey: "",
+  // authDomain: "mavlsmeet.firebaseapp.com",
+  // projectId: "mavlsmeet",
+  // storageBucket: "",
+  // messagingSenderId: "",
+  // appId: "",
+  // measurementId: ""
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
